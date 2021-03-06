@@ -1,0 +1,67 @@
+* {
+
+}
+
+header {
+    line-height: 400%;
+    text-indent: 1em;
+
+    background-color: #000033;
+    color: white;
+
+    background-image: url("chapter5/casestudystarters/pacific/sunset.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    font-size: 75%;
+    text-align: center;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+h1 {
+    margin-bottom: 0px;
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+nav {
+    background-color: #90C7E3;
+}
+
+nav a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+h2 {
+    color: #3399CC;
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+h3 {
+    color: #000033;
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+ul {
+    list-style-image: url("chapter5/casestudystarters/pacific/marker.gif");
+}
+
+dt {
+    color: #000033;
+}
+
+.resort {
+    color: #5C7FA3;
+    font-weight: bold;
+}
+
+.contact {
+    font-size: 90%;
+}
