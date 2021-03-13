@@ -3,8 +3,10 @@
 }
 
 header {
-    line-height: 400%;
-    text-indent: 1em;
+    padding-top: 15px;
+    height:60px;
+
+    text-align: center;
 
     background-color: #000033;
     color: white;
@@ -16,9 +18,39 @@ header {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(#FFF, #90C7E3);
+}
+
+main { 
+    background-color: #FFFFFF ; 
+    padding: 1px 20px 20px 20px;
+    display: block;
+}
+
+#homehero { 
+    height: 300px;
+    background-image: url(chapter5/casestudystarters/pacific/coast.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100% ;
+}
+
+#trailhero {    
+    height: 300px;
+    background-image: url(chapter5/casestudystarters/pacific/trail.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat; 
+}
+
+#yurthero {    
+    height: 300px;
+    background-image: url(chapter5/casestudystarters/pacific/yurt.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat; 
 }
 
 footer {
+    background-color: #FFF;
+    padding:20px;
     font-size: 75%;
     text-align: center;
     font-style: italic;
@@ -26,12 +58,14 @@ footer {
 }
 
 h1 {
+    margin-top: 0px;
     margin-bottom: 0px;
     font-family: Georgia, 'Times New Roman', serif;
 }
 
 nav {
-    background-color: #90C7E3;
+    background-color: #FFF;
+    text-align: center;
 }
 
 nav a {
@@ -42,6 +76,7 @@ nav a {
 h2 {
     color: #3399CC;
     font-family: Georgia, 'Times New Roman', serif;
+    text-shadow: 1px #cccccc;
 }
 
 h3 {
@@ -65,3 +100,12 @@ dt {
 .contact {
     font-size: 90%;
 }
+
+#wrapper { background-color: #000033 ;
+    min-width: 960px;
+    max-width: 2048px;
+    margin-left: auto ;
+    margin-right: auto;
+    width: 80% ;
+    box-shadow: 3px #333; 
+} 
