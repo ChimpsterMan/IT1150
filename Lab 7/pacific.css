@@ -1,40 +1,41 @@
 * {
-
+    box-sizing: border-box;
 }
 
 header {
-    padding-top: 15px;
-    height:60px;
+    padding-top: 30px;
+    padding-left: 3em;
+    height:120px;
 
     text-align: center;
 
     background-color: #000033;
     color: white;
-
-    background-image: url("chapter5/casestudystarters/pacific/sunset.jpg");
-    background-position: right;
-    background-repeat: no-repeat;
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(#FFF, #90C7E3);
+    background-color: #B8DBED;
 }
 
 main { 
+    margin-left: 190px;
+    padding-left: 30px;
     background-color: #FFFFFF ; 
     padding: 1px 20px 20px 20px;
     display: block;
 }
 
 #homehero { 
+    margin-left: 190px;
     height: 300px;
     background-image: url(chapter5/casestudystarters/pacific/coast.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100% ;
 }
 
-#trailhero {    
+#trailhero {   
+    margin-left: 190px;
     height: 300px;
     background-image: url(chapter5/casestudystarters/pacific/trail.jpg);
     background-size: 100% 100%;
@@ -42,6 +43,7 @@ main {
 }
 
 #yurthero {    
+    margin-left: 190px;
     height: 300px;
     background-image: url(chapter5/casestudystarters/pacific/yurt.jpg);
     background-size: 100% 100%;
@@ -49,6 +51,7 @@ main {
 }
 
 footer {
+    margin-left: 190px;
     background-color: #FFF;
     padding:20px;
     font-size: 75%;
@@ -61,11 +64,15 @@ h1 {
     margin-top: 0px;
     margin-bottom: 0px;
     font-family: Georgia, 'Times New Roman', serif;
+    font-size: 3em;
+    letter-spacing: 0.25em;
 }
 
 nav {
-    background-color: #FFF;
-    text-align: center;
+    padding: 1.5em;
+    font-size: 120%;
+    float: left;
+    width: 160px;
 }
 
 nav a {
@@ -84,8 +91,27 @@ h3 {
     font-family: Georgia, 'Times New Roman', serif;
 }
 
-ul {
+main ul {
     list-style-image: url("chapter5/casestudystarters/pacific/marker.gif");
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding-left: 0px;
+    font-size: 1.2em;
+}
+
+:link {
+    color: #5c7fa3;
+}
+
+:visited {
+    color: #344873;
+}
+
+:hover {
+    color: #a52a2a;
 }
 
 dt {
@@ -101,11 +127,14 @@ dt {
     font-size: 90%;
 }
 
-#wrapper { background-color: #000033 ;
+#wrapper { 
+    background-color: #90c7e3 ;
     min-width: 960px;
     max-width: 2048px;
     margin-left: auto ;
     margin-right: auto;
     width: 80% ;
     box-shadow: 3px #333; 
+    border: 1px solid #000033;
+    background-image: linear-gradient(#FFF, #90C7E3);
 } 
