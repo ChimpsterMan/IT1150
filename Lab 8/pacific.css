@@ -1,0 +1,243 @@
+* {
+    box-sizing: border-box;
+}
+
+header, main, nav, footer, figure, figcaption, aside, section, article {
+    display:block;
+}
+
+header {
+    padding-top: 30px;
+    padding-left: 3em;
+    height:120px;
+
+    text-align: center;
+
+    background-color: #000033;
+    color: white;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #B8DBED;
+}
+
+main { 
+    margin-left: 190px;
+    padding-left: 30px;
+    background-color: #FFFFFF ; 
+    padding: 1px 20px 20px 20px;
+    display: block;
+}
+
+#mobile {
+    display: none;
+}
+
+#desktop {
+    display: inline;
+}
+
+#homehero { 
+    margin-left: 190px;
+    height: 300px;
+    background-image: url(chapter5/casestudystarters/pacific/coast.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100% ;
+}
+
+#trailhero {   
+    margin-left: 190px;
+    height: 300px;
+    background-image: url(chapter5/casestudystarters/pacific/trail.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat; 
+}
+
+#yurthero {    
+    margin-left: 190px;
+    height: 300px;
+    background-image: url(chapter5/casestudystarters/pacific/yurt.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat; 
+}
+
+footer {
+    margin-left: 190px;
+    background-color: #FFF;
+    padding:20px;
+    font-size: 75%;
+    text-align: center;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 3em;
+    letter-spacing: 0.25em;
+}
+
+nav {
+    padding: 1.5em;
+    font-size: 120%;
+    float: left;
+    width: 160px;
+}
+
+nav a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+h2 {
+    color: #3399CC;
+    font-family: Georgia, 'Times New Roman', serif;
+    text-shadow: 1px #cccccc;
+}
+
+h3 {
+    color: #000033;
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+main ul {
+    list-style-image: url("chapter5/casestudystarters/pacific/marker.gif");
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding-left: 0px;
+    font-size: 1.2em;
+}
+
+:link {
+    color: #5c7fa3;
+}
+
+:visited {
+    color: #344873;
+}
+
+:hover {
+    color: #a52a2a;
+}
+
+dt {
+    color: #000033;
+}
+
+.resort {
+    color: #5C7FA3;
+    font-weight: bold;
+}
+
+.contact {
+    font-size: 90%;
+}
+
+#wrapper { 
+    background-color: #90c7e3 ;
+    min-width: 960px;
+    max-width: 2048px;
+    margin-left: auto ;
+    margin-right: auto;
+    width: 80% ;
+    box-shadow: 3px #333; 
+    border: 1px solid #000033;
+    background-image: linear-gradient(#FFF, #90C7E3);
+}
+
+@media only screen and (max-width: 64em){
+    body{
+        margin: 0px;
+        background-color: #FFF;
+    }
+
+    #wrapper {
+        min-width: 0px;
+        width:auto;
+        box-shadow: none;
+        border: none;
+    }
+
+    header {
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        padding-left: 0px;
+        height:auto;
+    }
+
+    h1 {
+        letter-spacing: 0.1em;
+    }
+
+    main {
+        margin-left: 0px;
+    }
+
+    nav {
+        float:none;
+        width:auto;
+        text-align: center;
+        padding: 0.5em;
+    }
+
+    nav li {
+        display:inline;
+        padding-top: 0.25em;
+        padding-bottom: 0.25em;
+        padding-right: 0.75em;
+        padding-left: 0.75em;
+    }
+
+    #homehero, #yurthero, #trailhero {
+        margin-left: 0px;
+        height: 200px;
+    }
+
+    footer {
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 37.5em){
+    main {
+        padding: 0.1em 1em 0.1em 1em;
+        font-size: 90%;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    nav {
+        padding: 0px;
+    }
+
+    nav li {
+        display: block;
+        margin: 0px;
+        border: 2px solid #330000;
+    }
+
+    nav li a {
+        display: block;
+    }
+
+    #homehero, #yurthero, #trailhero {
+        background-image: none;
+        height: 0px;
+    }
+
+    #mobile {
+        display: inline;
+    }
+    
+    #desktop {
+        display: none;
+    }
+}
